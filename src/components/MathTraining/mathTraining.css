@@ -1,0 +1,30 @@
+.mathContainer {
+  margin: 0 auto;
+  width: 700px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-around;
+}
+
+.progress-bar {
+  animation: width 0.7s;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 2s ease-in;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 2s ease-in;
+}

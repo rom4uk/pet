@@ -1,0 +1,49 @@
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+}
+
+header ul li {
+  list-style: none;
+  margin-right: 15px;
+}
+
+header ul li:last-child {
+  margin-right: 0;
+}
+
+button {
+  font-size: small;
+}
+
+.btnForm {
+  flex: 1;
+  padding: 7px 20px;
+  display: inline-block;
+  border: none;
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btnForm:hover {
+  background-color: #666;
+}
+
+.mainForm {
+  margin: 5px auto;
+  display: flex;
+  width: 500px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
